@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 60px; 
-    margin-bottom: 90px; 
+    margin-bottom: 90px;
 }
 
 .menu-list {
@@ -348,6 +348,7 @@ body {
     }
     .header {
         display: none;
+        z-index: 1;
         flex-direction: column;
         position: absolute;
         right: 0;
@@ -358,6 +359,7 @@ body {
     }
     .header-active {
         display: flex;
+        z-index: 99;
     }
     .logo {
         margin-bottom: 25px;
